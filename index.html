@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ISS tracker</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="outer-box">
+			<header class="text-center">ISS tracker</header>			
+			<div class="info-box">			
+				<label class="label">lattitude:</label>
+				<label class="data" id="text_latitude">LATITUDE</label>							
+				<label class="label">longitude:</label>
+				<label class="data" id="text_longitude">LONGITUDE</label>										
+				<label class="label">timestamp:</label>
+				<label class="data" id="text_timestamp">TIMESTAMP</label>								
+				<label class="label">message:</label>
+				<label class="data" id="text_message">Please enable JavaScript</label>				
+			</div>	
+			<div class="run-control"><button id="start-stop">Start</button></div>
+			<footer class="text-center">Realtime info from: <a href="http://open-notify.org/Open-Notify-API/ISS-Location-Now/">Open Notify API</a></footer>
+		</div>	
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>

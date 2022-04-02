@@ -1,0 +1,77 @@
+.outer-box {
+    width: 500px;
+    background-color: rgba(0, 255, 255, 0.5);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 5px;    
+    padding: 5px;
+    box-shadow: 5px 5px #888888;
+}
+
+.text-center {
+    text-align: center;
+}
+
+header {
+    padding: 5px;    
+    font-family: monospace;
+    font-size: 4rem;
+}
+
+footer {
+    padding: 10px;
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.run-control {
+    text-align: center;
+}
+
+.info-box {
+    /*width: 500px;*/
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;    
+}
+
+.label {
+    flex: 15%;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    font-size: 1rem;
+    text-align: left;  
+    align-content: center;
+    padding: 5px 0px 5px 5px;
+    border-radius: 10px 0px 0px 10px;
+    margin: 5px 0px 5px 0px;      
+}
+
+.data {    
+    flex: 80%;  
+    background-color: rgba(0,0,0,0.2);
+    color: blueviolet;
+    font-size: 1rem;
+    text-align: center;
+    align-content: center;
+    padding: 5px 0px 5px 0px;
+    border-radius: 0px 10px 10px 0px;
+    margin: 5px 0px 5px 0px;
+}
+
+.bg-red {
+    background-color: red;;
+}
+
+.bg-green {
+    background-color: green;;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
