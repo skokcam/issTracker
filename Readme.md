@@ -5,3 +5,6 @@ Completed assignment: `Exercise: Web App APIs` of [ZTM complete web developer](h
 Tracks International Space Station using [Open Notify API](http://open-notify.org/Open-Notify-API/ISS-Location-Now/)
 
 Ok, I went for the simlest api there is. In my defense I wrote a class that isolates written code from global namespace and implemented both fetch.then and async.await.
+
+Sorry, because [Open Notify API](http://open-notify.org/Open-Notify-API/ISS-Location-Now/) is non-secure (http instead of https) this code doesnt work on github pages
+
