@@ -54,7 +54,7 @@ class issTrackerApp {
     }
 
 	getISSdataAsync = async () => {
-		const { open_notify_api, iss_info, updatePage} = this;
+		const { open_notify_api, iss_info, date, updatePage} = this;
 
 		try {
 			let response = await fetch(open_notify_api);
